@@ -1,0 +1,12 @@
+{
+  "litcode": {
+    "port": 80,
+    "host": "0.0.0.0",
+    "static": "web/litcode/build",
+    "mysql": {
+      "port": 3306,
+      "host": "35.232.9.106",
+      "database": "litcode"
+    }
+  }
+}

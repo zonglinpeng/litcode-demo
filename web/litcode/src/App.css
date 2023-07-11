@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+#page-body {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+}

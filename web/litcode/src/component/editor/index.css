@@ -1,0 +1,85 @@
+.editor-main {
+    margin-top: 10px;
+    height: 100%;
+    display: grid;
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.editor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.editor-start {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.editor-test {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.editor-other {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-run-group {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#editor-run-button {
+    width: 100%;
+}
+
+#editor-save-button {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#editor-delete-button {
+    width: 100%;
+}
+
+.editor-run-result {
+    flex: 1
+}
+
+.editor-description {
+    flex: 1
+}
+
+.editor-title {
+    margin: 15px;
+    display: flex;
+}
+
+.editor-difficulty {
+    margin-left: 10px;
+}
+
+.editor-tag {
+    margin-left: 10px;
+}
