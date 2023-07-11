@@ -2,8 +2,8 @@
 
 ** This is a demo of Litcode© of 2021. All copy rights are reserved**
 
-- [CI/CD Pipeline](https://github.com/bamboovir/litcode/actions/workflows/litcode.yml)
-- [Docker Image](https://hub.docker.com/repository/docker/bamboovir/litcode)
+- [CI/CD Pipeline](https://github.com/zonglinpeng/litcode/actions/workflows/litcode.yml)
+- [Docker Image](https://hub.docker.com/repository/docker/zonglinpeng/litcode)
 
 ## Development Environment configuration
 
@@ -82,7 +82,7 @@ docker run \
   -e LITCODE_OAUTH2_CLIENT_SECRET \
   -e LITCODE_MYSQL_USERNAME \
   -e LITCODE_MYSQL_PASSWORD \
-  "docker.io/bamboovir/litcode:44aa077f"
+  "docker.io/zonglinpeng/litcode:44aa077f"
 ```
 
 ## API Endpoint

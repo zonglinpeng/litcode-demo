@@ -1,4 +1,4 @@
-package com.bamboovir.litcode.model;
+package com.zonglinpeng.litcode.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

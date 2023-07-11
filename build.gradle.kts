@@ -7,7 +7,7 @@ plugins {
   id("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
-group = "com.bamboovir.litcode"
+group = "com.zonglinpeng.litcode"
 version = "1.0.0"
 
 repositories {
@@ -19,9 +19,9 @@ val junitJupiterVersion = "5.7.0"
 val jacksonVersion = "2.12.4"
 val lombokVersion = "1.18.20"
 
-val mainVerticleName = "com.bamboovir.litcode.litcode.MainVerticle"
+val mainVerticleName = "com.zonglinpeng.litcode.litcode.MainVerticle"
 //val launcherClassName = "io.vertx.core.Launcher"
-val launcherClassName = "com.bamboovir.litcode.litcode.Litcode"
+val launcherClassName = "com.zonglinpeng.litcode.litcode.Litcode"
 
 val watchForChange = "src/**/*"
 val doOnChange = "${projectDir}/gradlew classes"

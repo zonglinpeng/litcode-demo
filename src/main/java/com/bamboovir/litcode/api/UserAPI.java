@@ -1,6 +1,6 @@
-package com.bamboovir.litcode.api;
+package com.zonglinpeng.litcode.api;
 
-import com.bamboovir.litcode.service.UserService;
+import com.zonglinpeng.litcode.service.UserService;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.auth.User;

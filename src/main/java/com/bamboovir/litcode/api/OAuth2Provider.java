@@ -1,6 +1,6 @@
-package com.bamboovir.litcode.api;
+package com.zonglinpeng.litcode.api;
 
-import com.bamboovir.litcode.config.Config;
+import com.zonglinpeng.litcode.config.Config;
 import io.vertx.core.Future;
 import io.vertx.core.Vertx;
 import io.vertx.ext.auth.oauth2.OAuth2Auth;

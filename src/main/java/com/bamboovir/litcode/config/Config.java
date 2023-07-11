@@ -1,4 +1,4 @@
-package com.bamboovir.litcode.config;
+package com.zonglinpeng.litcode.config;
 
 import io.vertx.config.ConfigRetriever;
 import io.vertx.config.ConfigRetrieverOptions;

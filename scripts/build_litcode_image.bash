@@ -24,8 +24,8 @@ APP_VERSION="${APP_VERSION:-$COMMIT_SHA}"
 
 
 PROJECT_ROOT=$(git rev-parse --show-toplevel)
-APP_DOCKER_PATH="bamboovir/litcode:$APP_VERSION"
-APP_SNAPSHOT_DOCKER_PATH="bamboovir/litcode:$COMMIT_SHA"
+APP_DOCKER_PATH="zonglinpeng/litcode:$APP_VERSION"
+APP_SNAPSHOT_DOCKER_PATH="zonglinpeng/litcode:$COMMIT_SHA"
 
 DOCKER_FILE_PATH="${PROJECT_ROOT}/docker/litcode/Dockerfile"
 
